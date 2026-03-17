@@ -28,7 +28,7 @@
 
 ```bash
 # 1. Cloner le projet
-git clone https://github.com/your-username/covniv.git
+git clone https://github.com/sami-dev-dz/covniv.git
 cd covniv
 
 # 2. Configurer l'environnement
