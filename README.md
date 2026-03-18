@@ -1,6 +1,5 @@
 <div align="center">
-  <i data-lucide="car-front"></i>
-  <h1 align="center">CovNiv</h1>
+  <h1 align="center">🚗 CovNiv</h1>
   <p align="center">
     <strong>A secure, custom MVC-based carpooling platform designed for university students.</strong>
   </p>
