@@ -48,8 +48,8 @@ Ensure you have the following installed:
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/sami-dev-dz/uniride.git
-cd uniride
+git clone https://github.com/sami-dev-dz/covnivii.git
+cd covnivii
 ```
 
 ### 3. Environment Setup
@@ -60,7 +60,7 @@ cp .env.example .env
 Update `.env` with your local settings:
 ```env
 DB_HOST=localhost
-DB_DATABASE=uniride
+DB_DATABASE=covnivii
 DB_USERNAME=root
 DB_PASSWORD=your_password
 API_KEY=your_secure_key
@@ -69,8 +69,8 @@ API_KEY=your_secure_key
 ### 4. Database Initialization
 Create the database and import the schema:
 ```bash
-mysql -u root -p -e "CREATE DATABASE uniride CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
-mysql -u root -p uniride < database/schema.sql
+mysql -u root -p -e "CREATE DATABASE covnivii CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
+mysql -u root -p covnivii < database/schema.sql
 ```
 
 ### 5. Final Configuration
